@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: Arial, Helvetica, sans-serif; }
+
+@media (max-width: 760px) {
+  .desktop-nav { display:none; }
+  .mobile-nav { display:flex; }
+}
+@media (min-width: 761px) {
+  .mobile-nav { display:none; }
+}
